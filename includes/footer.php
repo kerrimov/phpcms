@@ -1,0 +1,1 @@
+<p align="center"> 2018 &copy; <a href="index.php"> designed by kerrimov</a> </p>

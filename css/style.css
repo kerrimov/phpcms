@@ -1,0 +1,116 @@
+body{
+	background-color: #ffffff;
+	margin: 10;
+	padding: 10;
+}
+
+.sta{
+	width: 700px;
+	border-radius: 12px;
+	padding: 10px 10px 10px 10px;
+	margin: auto;
+	background-color: #f9f9f9;
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+
+.container{
+	width: 1000px;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+.head{
+	width: 1900px;
+	height: 100px;
+	background-color: #ffffff;
+}
+
+.barmenu{
+	width: 1000px;
+	height: 100px;
+	background-color: #ffffff;
+}
+
+
+#menu{
+	line-height: 0px;
+	float: left;
+}
+
+#menu li{
+	list-style-type: none;
+	display: inline;
+}
+
+#menu a{
+	text-decoration: none;
+	font-size: 16px; 
+	font-family: "Ink Free";
+	color: #000000;
+	margin:5px;
+	padding: 6px;
+}
+
+#menu a:hover{
+	color: #000000;
+	text-decoration:underline;
+}
+
+.postarea{
+	width: 750px;
+	height: 100%px;
+	background-color: #ffffff;
+	float: right;
+}
+
+.sbar{
+	width: 225px;
+	background-color: #f9f9f9;
+	float: right;
+	padding-left: 10px;
+	margin-right: 12px;
+	margin-top: 5px;
+	border-radius: 10px;  
+}
+
+.foterarea{
+	width: 980px;
+	height: 45px;
+	background-color: #ffffff;
+	clear: both;
+	padding: 10px;
+}
+
+#form{
+	line-height: 35px;
+	float:  right;
+	margin-right: 3px; 
+}
+
+a{
+	text-decoration: none;
+	font-family: "Ink Free";
+}
+
+a:hover{
+	color:#000000;
+	text-decoration: underline;
+}
+
+.recent{
+	width: 215px;
+	height: 30px;
+	background-color: #f9f9f9;
+	font-family: "Ink Free";
+}
+
+.comments{
+	width: 700px;
+	height: 300;
+	background-color: #ffffff;
+	margin: 0 auto;
+	text-align:left; 
+	border-radius: 12px;
+	padding: 15px 15px 15px 15px;
+}
