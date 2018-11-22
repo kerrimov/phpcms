@@ -31,13 +31,24 @@
 
 		<div class="postarea">
 			<div class="contact">
-					<p style="font-size: 30px">For cooperation issues:</p>
-					<li style="font-size: 25px">Email: ✉ phpcms@gmail.com</li>
-					<li style="font-size: 25px">Phone: ☎ +380660770777</li>
-					<p style="font-size: 25px">Our office:<br> Phpcms street, 7 </p>
+					<p style="font-size: 25px">For cooperation issues:</p>
+					<li style="font-size: 20px">Email: ✉ phpcms@gmail.com</li>
+					<li style="font-size: 20px">Phone: ☎ +380660770777</li>
+					<p style="font-size: 20px">Our office:<br> Phpcms street, 7 </p>
 					<img  src="img/map.png" id="map">
-				
-			</div>			
+					<hr>
+					<h2>Send us your feedback</h2>
+					<form action="contact.php" name="feedback" method="post">
+						<p><input style="border-radius: 15px" type="email" name="email" placeholder="  Your email"></p>
+						<textarea style="border-radius: 15px" name="message" cols="70" rows="10" placeholder=" Write your feedback here"><?php $message ?></textarea><br>
+						<button style="border-radius: 15px; background-color: #e8e8e8" name="send">Leave feedback</button>
+					</form>
+					<?php include("includes/feedback.php")?>
+					<?php
+						echo "$answer";
+						unset($answer);
+					?>
+			</div>	
 		</div>
 
 		<div class="sbar">
