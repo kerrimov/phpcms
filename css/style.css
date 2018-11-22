@@ -126,3 +126,8 @@ a:hover{
 	text-align: left;
 	font-family: Calibri;
 }
+
+input{
+    display: inline;
+    text-align: center;
+}
