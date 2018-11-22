@@ -114,3 +114,15 @@ a:hover{
 	border-radius: 12px;
 	padding: 15px 15px 15px 15px;
 }
+
+.contact{
+	width: 700px;
+	border-radius: 12px;
+	padding: 10px 10px 10px 10px;
+	margin: auto;
+	background-color: #ffffff;
+	margin-top:5px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-family: Calibri;
+}

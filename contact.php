@@ -30,12 +30,12 @@
 		</div>	
 
 		<div class="postarea">
-			<div class="sta" style="background-color: #ffffff">
-					<p style="font-family: Calibri; font-size: 30px">For cooperation issues:</p>
-					<li style="font-family: Calibri; font-size: 25px">Email: ✉ phpcms@gmail.com</li>
-					<li style="font-family: Calibri; font-size: 25px">Phone: ☎ +380660770777</li>
-					<p style="font-family: Calibri; font-size: 25px">Our office:<br> Phpcms street, 7 </p>
-					<img src="img/map.png" id="map">
+			<div class="contact">
+					<p style="font-size: 30px">For cooperation issues:</p>
+					<li style="font-size: 25px">Email: ✉ phpcms@gmail.com</li>
+					<li style="font-size: 25px">Phone: ☎ +380660770777</li>
+					<p style="font-size: 25px">Our office:<br> Phpcms street, 7 </p>
+					<img  src="img/map.png" id="map">
 				
 			</div>			
 		</div>
