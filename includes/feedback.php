@@ -1,7 +1,3 @@
-<?php
-	include("functions/dbconnect.php");
-?>
-
 <?php 
 $result="";
 if (isset($_POST['send'])) {
