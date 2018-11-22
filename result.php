@@ -22,7 +22,7 @@
 
 			<div id="form">
 				<form method="get" action="result.php" enctype="multipart/form-data">
-				<input style="border-radius: 7px;"type="text" name="searchquery">
+				<input style="border-radius: 7px;"type="text" name="searchquery" placeholder="search article">
 				<input style="border-radius: 7px; background-color: #e8e8e8"type="submit" name="search" value="Search">
 			</form>
 			</div>	
