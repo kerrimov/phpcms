@@ -23,7 +23,7 @@
 
 			<div id="form">
 				<form method="get" action="result.php" enctype="multipart/form-data">
-				<input style="border-radius: 10px;"type="text" name="searchquery">
+				<input style="border-radius: 10px;"type="text" name="searchquery" placeholder="search article">
 				<input style="border-radius: 10px; background-color: #e8e8e8;" type="submit" name="search" value="Search">
 			</form>
 			</div>	
@@ -39,7 +39,7 @@
 					<hr>
 					<h2>Send us your feedback</h2>
 					<form action="contact.php" name="feedback" method="post">
-						<p><input style="border-radius: 15px" type="email" name="email" placeholder="  Your email"></p>
+						<p><input style="border-radius: 15px" type="email" name="email" placeholder="Your email"></p>
 						<textarea style="border-radius: 15px" name="message" cols="70" rows="10" placeholder=" Write your feedback here"><?php $message ?></textarea><br>
 						<button style="border-radius: 15px; background-color: #e8e8e8" name="send">Leave feedback</button>
 					</form>
