@@ -72,6 +72,7 @@ body{
 	margin-right: 12px;
 	margin-top: 5px;
 	border-radius: 10px;  
+
 }
 
 .foterarea{
@@ -91,6 +92,11 @@ body{
 a{
 	text-decoration: none;
 	font-family: "Calibri";
+	color: #000000;
+}
+
+a:visited{
+	color: #247ee5;
 }
 
 a:hover{
@@ -130,4 +136,17 @@ a:hover{
 input{
     display: inline;
     text-align: center;
+}
+
+a.addpost{
+	text-align: right;
+	display: block;
+	color: #000000;
+	margin:3px;
+	padding: 3px;
+	font-weight: bold;
+}
+
+a.addpost:hover{
+	color: #ff8484;
 }
