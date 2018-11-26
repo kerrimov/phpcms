@@ -1,17 +1,13 @@
 <?php
 	session_start();
-	if (!$_SESSION['login']) {
-		echo "<script>window.open('login.php','_self')</script>";
-	}
 ?>
 <?php 
 	include("../../functions/dbconnect.php");
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Add Article</title>
+	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="../../css/adminstyle.css">
 	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">-->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
@@ -40,8 +36,16 @@
 		</div>	
 
 		<div class="postarea">
-			<h1 align="center" style="color: #1a9e5a; font-family:MV Boli"> Add new article</h1>
-			<?php include ("../../functions/insert_post.php") ?>
+			<h1 align="center" style="color: #1a9e5a; font-family:MV Boli">Welcome! Login, please</h1>
+			<div class="login">
+				<form action="login.php" method="post">
+					<p><input type="text" name="login" placeholder="Your login"></p>
+					<p><input type="password" name="password" placeholder="Your password"></p>
+					<input style="border-radius: 10px; background-color: #e8e8e8;" type="submit" name="submit" value="Log In">
+
+					<?php include("checkadmin.php")  ?>
+				</form>
+			</div>
 		</div>
 		<div class="foterarea">
 			<p align="center"> 2018 &copy; <a href="../index.php">designed by kerrimov</a> </p>

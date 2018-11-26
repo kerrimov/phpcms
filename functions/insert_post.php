@@ -8,10 +8,10 @@
  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
  </head>
  <body bgcolor="#ffffff">
- 	<form method="post" action="insert_post.php" enctype="multipart/form-data">
+ 	<form method="post" action="../../functions/insert_post.php" enctype="multipart/form-data">
  	<table width="400">
  		<tr>
- 			<td><h2>Insert new Post</h2></td>
+ 			<td><h2>Add new article</h2></td>
  		</tr>
 
  		<tr>

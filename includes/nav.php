@@ -17,3 +17,5 @@
 ?>
 
 <a href="contact.php">Contact</a>
+
+<a class="login" href="admin/index.php">Log in</a>

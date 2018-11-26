@@ -50,7 +50,7 @@ body{
 
 .postarea{
 	width: 1000px;
-	height: 100%px;
+	height: 1000px;
 	background-color: #ffffff;
 }
 
@@ -86,4 +86,13 @@ a:hover{
 input{
     display: inline;
     text-align: center;
+    border-radius: 10px;
+}
+
+.login{
+	width: 1000px;
+	border-radius: 12px;
+	background-color: #ffffff;
+	padding-top: 15px;
+	text-align: center;
 }

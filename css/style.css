@@ -150,3 +150,15 @@ a.addpost{
 a.addpost:hover{
 	color: #ff8484;
 }
+
+#menu a.login{
+	color: #000000;
+	font-weight: bold;
+	padding-left: 210px;
+	font-size: 17px;
+
+}
+
+#menu a.login:hover{
+	color: #ff8484;
+}

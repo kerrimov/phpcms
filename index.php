@@ -31,7 +31,7 @@
 
 		<div class="postarea">
 			<div class="sta">
-				<a class="addpost" href="functions/insert_post.php">Share new post</a>
+				<a class="addpost" href="admin/index.php">Share new post</a>
 				<?php include("includes/content.php")?>
 			</div>			
 		</div>
