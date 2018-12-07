@@ -24,11 +24,11 @@
 				<a href="add_article.php">Add article</a>
 				<a href="edit_post.php">Edit article</a>
 				<a href="add_category.php">Add category</a>
-				<a href="edit_comments.php">Edit comments</a>					
+				<a href="../comment_page.php">Edit comments</a>					
 			</ul>
 
 			<div id="form">
-				<form method="get" action="../result.php" enctype="multipart/form-data">
+				<form method="get" action="../../result.php" enctype="multipart/form-data">
 				<input style="border-radius: 10px;"type="text" name="searchquery" placeholder="search article">
 				<input style="border-radius: 10px; background-color: #e8e8e8;" type="submit" name="search" value="Search">
 			</form>

@@ -28,7 +28,7 @@
 				<a href="functions/add_article.php">Add article</a>
 				<a href="edit_post.php">Edit article</a>
 				<a href="add_category.php">Add category</a>
-				<a href="edit_comments.php">Edit comments</a>					
+				<a href="comment_page.php">Edit comments</a>					
 			</ul>
 
 			<div id="form">
